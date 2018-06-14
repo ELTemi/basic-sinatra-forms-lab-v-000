@@ -7,7 +7,6 @@ class App < Sinatra::Base
   end
 
   post '/team' do
-    prams.to_s
     erb :team
   end
 
